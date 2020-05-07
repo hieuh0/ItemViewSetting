@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="itemViewSetting">
+        <attr name="isVisible_CheckBox" format="boolean"/>
+        <attr name="isVisible_SwitchButton" format="boolean"/>
+        <attr name="isVisible_RightIcon" format="boolean"/>
+        <attr name="isVisible_TextValue" format="boolean"/>
+        <attr name="isVisible_LineBottom" format="boolean"/>
+        <attr name="isVisible_LineTop" format="boolean"/>
+        <attr name="description_item" format="string"/>
+        <attr name="description_color" format="color"/>
+        <attr name="text_item_value" format="string"/>
+        <attr name="item_value_color" format="color"/>
+        <attr name="item_checkbox_checked" format="boolean"/>
+        <attr name="item_switch_checked" format="boolean"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <dev.hieuhd.itemviewsetting.ItemViewSetting
+        android:layout_marginTop="20dp"
+        android:id="@+id/itemSetting1"
+        app:description_item="ItemViewSetting 1"
+        app:isVisible_RightIcon="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <dev.hieuhd.itemviewsetting.ItemViewSetting
+        android:layout_marginTop="20dp"
+        android:id="@+id/itemSetting2"
+        app:description_item="ItemViewSetting 2"
+        app:isVisible_RightIcon="false"
+        app:isVisible_CheckBox="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <dev.hieuhd.itemviewsetting.ItemViewSetting
+        android:layout_marginTop="20dp"
+        android:id="@+id/itemSetting3"
+        app:description_item="ItemViewSetting 1"
+        app:isVisible_RightIcon="false"
+        app:isVisible_SwitchButton="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <dev.hieuhd.itemviewsetting.ItemViewSetting
+        android:layout_marginTop="20dp"
+        android:id="@+id/itemSetting4"
+        app:description_item="ItemViewSetting 1"
+        app:isVisible_RightIcon="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <dev.hieuhd.itemviewsetting.ItemViewSetting
+        android:layout_marginTop="20dp"
+        android:id="@+id/itemSetting5"
+        app:description_item="ItemViewSetting 1"
+        app:isVisible_RightIcon="true"
+        app:isVisible_TextValue="true"
+        app:text_item_value="value1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
