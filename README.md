@@ -31,6 +31,13 @@ Step 3 : Add edittext to your xml layout.
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+Step 4 : Event click on view.
+	itemViewSetting.setOnItemClick(new ItemViewSetting.onClickItemSetting() {
+            @Override
+            public void onClickItem(View view, boolean isClick) {
+                //do something
+            }
+        });
 	
 	
 # Custom Attributes
