@@ -1,4 +1,4 @@
-# CustomEditText
+# ItemViewSetting
 
 A very simple Item setting view for Android
 
