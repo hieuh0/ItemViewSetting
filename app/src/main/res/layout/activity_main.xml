@@ -6,12 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
     <dev.hieuhd.itemviewsetting.ItemViewSetting
-        android:layout_marginTop="20dp"
         android:id="@+id/itemSetting1"
         app:description_item="ItemViewSetting 1"
         app:isVisible_RightIcon="true"
         android:layout_width="match_parent"
+        app:description_color="@color/colorAccent"
         android:layout_height="wrap_content"/>
     <dev.hieuhd.itemviewsetting.ItemViewSetting
         android:layout_marginTop="20dp"
@@ -19,6 +20,7 @@
         app:description_item="ItemViewSetting 2"
         app:isVisible_RightIcon="false"
         app:isVisible_CheckBox="true"
+        app:item_checkbox_checked="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <dev.hieuhd.itemviewsetting.ItemViewSetting
@@ -27,6 +29,7 @@
         app:description_item="ItemViewSetting 1"
         app:isVisible_RightIcon="false"
         app:isVisible_SwitchButton="true"
+        app:item_switch_checked="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <dev.hieuhd.itemviewsetting.ItemViewSetting
@@ -43,6 +46,8 @@
         app:isVisible_RightIcon="true"
         app:isVisible_TextValue="true"
         app:text_item_value="value1"
+        app:item_value_color="@color/colorPrimary"
+        app:isVisible_LineBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </LinearLayout>
