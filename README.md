@@ -1,8 +1,7 @@
 # ItemViewSetting
 
 A very simple Item setting view for Android
-
-
+![1](https://user-images.githubusercontent.com/20981474/81313794-877e4800-90b2-11ea-9159-a19fe8dde65a.png)
 
 # Usage
 
