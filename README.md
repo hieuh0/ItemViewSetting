@@ -19,7 +19,7 @@ Step 2 : Add the dependency
 [![](https://jitpack.io/v/hieuhd1/ItemViewSetting.svg)](https://jitpack.io/#hieuhd1/ItemViewSetting/)
 
 	dependencies {
-	        implementation 'com.github.hieuhd1:ItemViewSetting:0.0.1'
+	        implementation 'com.github.hieuhd1:ItemViewSetting:0.0.2'
 	}
 
 
