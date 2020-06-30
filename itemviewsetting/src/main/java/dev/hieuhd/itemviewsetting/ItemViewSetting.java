@@ -82,17 +82,17 @@ public class ItemViewSetting extends LinearLayout {
         boolean isVisibleLineTop = styleable.getBoolean(R.styleable.itemViewSetting_isVisible_LineTop, true);
 
         rlItemSetting.setOnClickListener(v -> {
-            if (listener != null) {
+            if (listener != null && !isVisibleSwitch) {
                 listener.onClickItem(this, false);
             }
         });
-        checkBox.setOnCheckedChangeListener((buttonView, isChecked) -> {
+        checkBox.setOnClickListener(v -> {
             if (listener != null) {
                 listener.onClickItem(this, checkBox.isChecked());
             }
         });
 
-        switchButton.setOnCheckedChangeListener((buttonView, isChecked) -> {
+        switchButton.setOnClickListener(v -> {
             if (listener != null) {
                 listener.onClickItem(this, switchButton.isChecked());
             }
@@ -112,6 +112,7 @@ public class ItemViewSetting extends LinearLayout {
         setIsVisibleBottomLine(isVisibleLineBottom);
         styleable.recycle();
     }
+
     public void setIsVisibleTopLine(boolean isVisible) {
         lineTop.setVisibility((isVisible) ? View.VISIBLE : View.GONE);
     }
@@ -127,6 +128,7 @@ public class ItemViewSetting extends LinearLayout {
     public void setCheckedSwitch(boolean isChecked) {
         switchButton.setChecked(isChecked);
     }
+
 
     public void setOnItemClick(onClickItemSetting onItemClick) {
         this.listener = onItemClick;
