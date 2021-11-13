@@ -59,16 +59,13 @@ Step 4 : Event click on view.
 | item_checkbox_checked   | boolean     | app:item_checkbox_checked="true"      | 
 | item_switch_checked   | boolean    |  app:item_switch_checked="true"      | 
 
- # Contact
+ # Contribute
  
- Feel free to contact for any question or bugs:
- 
- * Email : hieuhd1003@gmail.com
- 
+ Feel free to contact for any question or bugs
  
 # Licence
 
-Copyright 2020 HieuHD
+Copyright 2020
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
