@@ -2,7 +2,7 @@
 
 A very simple Item setting view for Android
 
-![1](https://user-images.githubusercontent.com/20981474/81314152-fb205500-90b2-11ea-867b-20a5c896a392.png)
+<img src="https://user-images.githubusercontent.com/20981474/81314152-fb205500-90b2-11ea-867b-20a5c896a392.png" width="320" />
 
 # Usage
 
